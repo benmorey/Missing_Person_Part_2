@@ -1,0 +1,447 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Missing Persons Project</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css'%}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Missing Persons Project</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">How to Identify</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">How to Help</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'table' %}">Missing Persons</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Human Trafficking</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Helping the BYU community learn about and engage with combatting human trafficking</h2>
+                        <a class="btn btn-primary" href="#about">Start Learning Here</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4" style="text-decoration:none">How to Identify</h2>
+                        <p class="text-white-50">
+                            
+                        </p>
+                    </div>
+                </div>
+               <img class="img-fluid" src="{% static 'img/ipad.png'%}" alt="..." width="75%" />
+               <br><a href="https://antitrafficking.aau-slc.org/">Source: Refugee and Immigrant Center Asian Association of Utah</a>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="about-section text-center" id="projects">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4" style="text-decoration:none">How to Help</h2>
+                        <p class="text-white-50">
+                        <ol class="text-white-50">
+                            <li> Learn the indicators of human trafficking on the TIP Office’s website or by taking a training.  Human trafficking awareness training is available for individuals, businesses, first responders, law enforcement, educators, and federal employees, among others.  </li><br>
+                            <li> If you are in the United States and believe someone may be a victim of human trafficking, call the 24-hour National Human Trafficking Hotline  at 1-888-373-7888 or report an emergency to law enforcement by calling 911. Trafficking victims, whether or not U.S. citizens, are eligible for services and immigration assistance.  </li><br>
+                            <li> Be a conscientious and informed consumer. Find out more about who may have picked your tomatoes or made your clothes at ResponsibleSourcingTool.org , or check out the Department of Labor’s List of Goods Produced by Child Labor or Forced Labor . Encourage companies to take steps to prevent human trafficking in their supply chains and publish the information, including supplier or factory lists, for consumer awareness.  </li><br>
+                            <li> Volunteer and support anti-trafficking efforts in your community .   </li><br>
+                            <li> Meet with and/or write to your local, state, and federal elected officials  to let them know you care about combating human trafficking and ask what they are doing to address it.   </li><br>
+                            <li> Be well-informed. Set up a web alert to receive current human trafficking news. Also, check out CNN’s Freedom Project  for more stories on the different forms of human trafficking around the world.  </li><br>
+                            <li> Host an awareness-raising event to watch and discuss films about human trafficking. For example, learn how modern slavery exists today; watch an investigative documentary about sex trafficking; or discover how forced labor can affect global food supply chains. Alternatively, contact your local library and ask for assistance identifying an appropriate book and ask them to host the event.   </li><br>
+                            <li> Organize a fundraiser and donate the proceeds to an anti-trafficking organization .  </li><br>
+                            <li> Encourage your local schools or school district to include human trafficking in their curricula and to develop protocols  for identifying and reporting a suspected case of human trafficking or responding to a potential victim.   </li><br>
+                            <li> Use your social media platforms to raise awareness about human trafficking, using the following hashtags: #endtrafficking, #freedomfirst.   </li><br>
+                            <li> Think about whether your workplace is trauma-informed and reach out to management or the Human Resources team to urge implementation of trauma-informed business practices .   </li><br>
+                            <li> Become a mentor to a young person or someone in need. Traffickers often target people who are going through a difficult time or who lack strong support systems. As a mentor, you can be involved in new and positive experiences in that person’s life during a formative time.   </li><br>
+                            <li> Parents and Caregivers: Learn how human traffickers often target and recruit youth  and who to turn to for help in potentially dangerous situations. Host community conversations with parent teacher associations, law enforcement, schools, and community members regarding safeguarding children in your community.  </li><br>
+                            <li> Youth: Learn how to recognize traffickers’ recruitment tactics , how to safely navigate out of a suspicious or uncomfortable situations, and how to reach out for help at any time.   </li><br>
+                            <li> Faith-Based Communities : Host awareness events and community forums with anti-trafficking leaders or collectively support a local victim service provider.  </li><br>
+                            <li> Businesses: Provide jobs, internships, skills training, and other opportunities to trafficking survivors. Take steps to investigate and prevent trafficking in your supply chains by consulting the Responsible Sourcing Tool and Comply Chain to develop effective management systems to detect, prevent, and combat human trafficking.   </li><br>
+                            <li> College Students: Take action  on your campus. Join or establish a university club to raise awareness about human trafficking and initiate action throughout your local community. Consider doing one of your research papers on a topic concerning human trafficking. Request that human trafficking be included in university curricula.   </li><br>
+                            <li> Health Care Providers: Learn  how to identify the indicators of human trafficking and assist victims. With assistance from local anti-trafficking organizations, extend low-cost or free services to human trafficking victims. Resources from the Department of Health and Human Services can be found on their website.   </li><br>
+                            <li> Journalists: The media plays an enormous role in shaping perceptions and guiding the public conversation about human trafficking. Seek out some media best practices on how to effectively and responsibly report stories on human trafficking.   </li><br>
+                            <li> Attorneys: Offer human trafficking victims legal services, including support for those seeking benefits or special immigration status. Resources  are available for attorneys representing victims of human trafficking.   </li><br>
+                        </ol>   
+                        </p>
+                        <a href="https://www.state.gov/20-ways-you-can-help-fight-human-trafficking/">Source: U.S. Department of State</a>
+                    </div>
+                </div>
+                <h2 class="text-white mb-4" style="text-decoration:none">Hotlines</h2>
+                <img class="img-fluid" id="HotlineModuleMap" src="https://humantraffickinghotline.org/sites/default/files/2023-01/hotline-widget-big.png" usemap="#HotlineModuleMap" alt="National Human Trafficking Hotline" width="60%"> 
+                <map name="HotlineModuleMap"> 
+                    <area shape="rect" coords="0,0,255,43" href="https://www.humantraffickinghotline.org/" alt="National Human Trafficking hotline" title="National Human Trafficking Hotline">
+
+                    <area shape="rect" coords="8,100,82,169" href="https://www.humantraffickinghotline.org/get-help" alt="Get Help" title="Get Help">
+                     
+                    <area shape="rect" coords="83,100,157,169" href="https://www.humantraffickinghotline.org/report-trafficking" alt="Report Human Trafficking" title="Report Human Trafficking">
+                     
+                    <area shape="rect" coords="158,100,249,169" href="https://www.humantraffickinghotline.org/resources" alt="Human Trafficking Information &amp;amp; Resources" title="Human Trafficking Information &amp;amp; Resources">
+                </map>
+               <br>
+            </div><a href="https://www.acf.hhs.gov/sites/default/files/documents/otip/utah_profile_efforts_to_combat_human_trafficking.pdf">Source: Utah's Human Trafficing Efforts</a>
+        </section>
+        <!-- <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <img class="img-fluid" id="HotlineModuleMap" src="https://humantraffickinghotline.org/sites/default/files/2023-01/hotline-widget-big.png" usemap="#HotlineModuleMap" alt="National Human Trafficking Hotline"> 
+                <map name="HotlineModuleMap"> 
+                    <area shape="rect" coords="0,0,255,43" href="https://www.humantraffickinghotline.org/" alt="National Human Trafficking hotline" title="National Human Trafficking Hotline">
+
+                    <area shape="rect" coords="8,100,82,169" href="https://www.humantraffickinghotline.org/get-help" alt="Get Help" title="Get Help">
+                     
+                    <area shape="rect" coords="83,100,157,169" href="https://www.humantraffickinghotline.org/report-trafficking" alt="Report Human Trafficking" title="Report Human Trafficking">
+                     
+                    <area shape="rect" coords="158,100,249,169" href="https://www.humantraffickinghotline.org/resources" alt="Human Trafficking Information &amp;amp; Resources" title="Human Trafficking Information &amp;amp; Resources">
+                </map> -->
+
+                <!-- Featured Project Row-->
+                <!-- <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Shoreline</h4>
+                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                        </div>
+                    </div>
+                </div>
+                Project One Row
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Misty</h4>
+                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                Project Two Row
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Mountains</h4>
+                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        {% comment %} Statistics {% endcomment %}
+        {% comment %} <section class="about-section text-center" id="statistics">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Missing Persons</h2>
+                        <table class="table table-bordered table-condensed; text-white mb-4">
+                            <thead><tr><th title="Field #1">date_missing</th>
+                            <th title="Field #2">last_name</th>
+                            <th title="Field #3">first_name</th>
+                            <th title="Field #4">age_at_missing</th>
+                            <th title="Field #5">city</th>
+                            <th title="Field #6">state</th>
+                            <th title="Field #7">gender</th>
+                            <th title="Field #8">race</th>
+                            </tr></thead>
+                            <tbody><tr>
+                            <td>10/30/2009</td>
+                            <td>Sharmarice</td>
+                            <td>Halima</td>
+                            <td align="right">14</td>
+                            <td>Granger</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>W</td>
+                            </tr>
+                            <tr>
+                            <td>10/16/2015</td>
+                            <td>Martinez</td>
+                            <td>Kimberly</td>
+                            <td align="right">16</td>
+                            <td>West Valley City</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>07/23/2004</td>
+                            <td>Gomez</td>
+                            <td>Brenda</td>
+                            <td align="right">3</td>
+                            <td>Logan</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>H</td>
+                            </tr>
+                            <tr>
+                            <td>05/25/2003</td>
+                            <td>Bishop</td>
+                            <td>Acacia</td>
+                            <td align="right">1</td>
+                            <td>Salt Lake City</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>W</td>
+                            </tr>
+                            <tr>
+                            <td>08/03/2020</td>
+                            <td>Salazar</td>
+                            <td>Maria</td>
+                            <td align="right">14</td>
+                            <td>Snowville</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>H</td>
+                            </tr>
+                            <tr>
+                            <td>04/09/2020</td>
+                            <td>Hernandez-Soto</td>
+                            <td>Peggy</td>
+                            <td align="right">6</td>
+                            <td>Ogden</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>H</td>
+                            </tr>
+                            <tr>
+                            <td>06/24/2021</td>
+                            <td>Jimenez</td>
+                            <td>Lucero</td>
+                            <td align="right">14</td>
+                            <td>West Valley City</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>H</td>
+                            </tr>
+                            <tr>
+                            <td>11/08/2013</td>
+                            <td>Colindres-Avila</td>
+                            <td>Yuris</td>
+                            <td align="right">17</td>
+                            <td>West Valley City</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>07/15/2021</td>
+                            <td>Harris</td>
+                            <td>Kandis</td>
+                            <td align="right">16</td>
+                            <td>Salt Lake City</td>
+                            <td>UT</td>
+                            <td>F</td>
+                            <td>W</td>
+                            </tr>
+                            <tr>
+                            <td>07/30/2006</td>
+                            <td>Seal</td>
+                            <td>Jaydan</td>
+                            <td align="right">1</td>
+                            <td>Garleys Wash</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>W</td>
+                            </tr>
+                            <tr>
+                            <td>06/13/2018</td>
+                            <td>Lizarraga</td>
+                            <td>Jose</td>
+                            <td align="right">13</td>
+                            <td>West Valley City</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>H</td>
+                            </tr>
+                            <tr>
+                            <td>04/23/2020</td>
+                            <td>Cortez Trujillo</td>
+                            <td>Eztli</td>
+                            <td align="right">21</td>
+                            <td>North Ogden</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>H</td>
+                            </tr>
+                            <tr>
+                            <td>10/25/2017</td>
+                            <td>Fowles</td>
+                            <td>Juan</td>
+                            <td align="right">15</td>
+                            <td>Lehi</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>08/20/2012</td>
+                            <td>Garcia</td>
+                            <td>Isai</td>
+                            <td align="right">17</td>
+                            <td>West Valley City</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>09/01/2015</td>
+                            <td>Smith</td>
+                            <td>Macin</td>
+                            <td align="right">17</td>
+                            <td>St. George</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>W</td>
+                            </tr>
+                            <tr>
+                            <td>01/26/2006</td>
+                            <td>Sisco-Ramirez</td>
+                            <td>Jose</td>
+                            <td align="right">4</td>
+                            <td>West Valley City</td>
+                            <td>UT</td>
+                            <td>M</td>
+                            <td>M</td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+                </div> {% endcomment %}
+                {% comment %} <img class="img-fluid" src="{% static 'img/ipad.png'%}" alt="..." /> {% endcomment %}
+            </div>
+        </section>
+        <!-- Signup
+        <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>-->
+
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <!--<form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                             Email address input
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                            </div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>-->
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <!--<div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3 mt-2 text-white">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <!--<div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!--<section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>-->
+        <!-- Contact-->
+        
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+
